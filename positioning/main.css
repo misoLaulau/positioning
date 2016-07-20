@@ -1,0 +1,66 @@
+/* CSS Document */
+
+* {
+  margin:0;
+  padding:0;
+  }
+header, section, footer, nav {
+  display: block;
+  }
+body{
+  margin: 0 auto;
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+    }  
+.container {
+  position: relative;
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: auto;
+  }
+#mainnav {
+  position: absolute;
+	background: #333;
+	font-family: "Arial Black", "Arial Bold", Arial, Helvetica, sans-serif;
+	text-transform:uppercase;
+	letter-spacing: .05em;
+  top: 10px;
+  left: 0px;
+	font-size: .75em;
+  }
+nav ul li {
+  list-style:none;
+  }
+#mainnav ul li a {
+	color: #fff;
+  float: left;
+  padding: 10px;
+  text-decoration:none;
+  }
+a:visited, a:hover, a:focus { 
+  color: #456F25; 
+  }
+header {
+  height: 124px;
+  }
+header .container #mainnav {
+  background-color: #444;
+  }
+#mainsection {
+	background: #ccc;
+	padding: 2em 0;
+  }
+#midsection {}
+#footernav{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 70px;
+  background-color: white;
+  width: 100%;
+  }
+#footernav ul li a {
+  color: #333;
+  text-decoration: none;
+  }
